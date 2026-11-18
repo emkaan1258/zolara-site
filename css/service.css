@@ -1,0 +1,459 @@
+/* Services Hero */
+.ser-services-hero {
+    position: relative;
+    padding: 120px 0;
+    background-image: url(/images/P3220027-1.jpg);
+    overflow: hidden;
+    object-fit: cover;
+    background-size: cover;
+
+}
+
+.ser-hero-overlay {
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.45);
+}
+
+.ser-hero-content {
+    color: #ffffff;
+}
+
+.ser-hero-content h1 {
+    font-size: clamp(44px, 7vw, 82px);
+    font-weight: 600;
+    line-height: 1;
+    margin-bottom: 22px;
+}
+
+.ser-hero-content p {
+    
+    color: #ffffff;
+    font-size: 20px;
+    line-height: 1.7;
+    margin: 0;
+    padding: 20px 0px;
+}
+
+.ser-quote-form-box {
+    background: #ffffff;
+    padding: 28px;
+    border-radius: 12px;
+    box-shadow: 0 18px 45px rgba(0, 0, 0, 0.18);
+}
+
+.ser-form-label {
+    color: #111111;
+    font-size: 13px;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin-bottom: 8px;
+}
+
+.ser-form-control {
+    height: 54px;
+    border-radius: 4px;
+    border: 1px solid #dddddd;
+    color: #111111;
+    font-size: 15px;
+    padding: 12px 15px;
+    box-shadow: none;
+}
+
+.ser-form-control:focus {
+    border-color: #f25b34;
+    box-shadow: none;
+}
+
+.ser-submit-btn {
+    height: 54px;
+    background: #f25b34;
+    color: #ffffff;
+    border-radius: 4px;
+    border: none;
+    font-size: 15px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.ser-submit-btn:hover {
+    background: #111111;
+    color: #ffffff;
+}
+
+/* Popular Services */
+.ser-popular-services-section {
+    background: #ffffff;
+}
+
+.ser-popular-heading {
+    color: #111111;
+    font-size: clamp(34px, 5vw, 52px);
+    font-weight: 600;
+    margin: 0;
+}
+
+.ser-popular-card {
+    background: #ffffff;
+    border: 1px solid #eeeeee;
+    border-radius: 14px;
+    padding: 32px 26px;
+    box-shadow: 0 14px 35px rgba(0, 0, 0, 0.08);
+    transition: all 0.3s ease;
+}
+
+.ser-popular-card:hover {
+    transform: translateY(-7px);
+    border-color: #f2541f;
+}
+
+.ser-popular-icon {
+    color: #f2541f;
+    font-size: 46px;
+    line-height: 1;
+    margin-bottom: 24px;
+}
+
+.ser-popular-card h5 {
+    color: #111111;
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 14px;
+}
+
+.ser-popular-card p {
+    color: #555555;
+    font-size: 16px;
+    line-height: 1.7;
+    margin-bottom: 22px;
+}
+
+.ser-popular-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    color: #f2541f;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 500;
+    transition: all 0.3s ease;
+}
+
+.ser-popular-btn:hover {
+    color: #111111;
+}
+
+/* Transport CTA Section */
+.ser-transport-cta {
+    position: relative;
+    padding: 110px 0;
+    background: url("https://images.pexels.com/photos/2199293/pexels-photo-2199293.jpeg?auto=compress&cs=tinysrgb&w=1600") center center / cover no-repeat;
+    overflow: hidden;
+}
+
+.ser-transport-overlay {
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.55);
+}
+
+.ser-transport-content {
+    position: relative;
+    z-index: 2;
+    color: #ffffff;
+}
+
+.ser-transport-logo img {
+    max-width: 210px;
+    height: auto;
+    padding: 12px;
+    border-radius: 6px;
+}
+
+.ser-transport-content h2 {
+    color: #ffffff;
+    font-size: clamp(34px, 5vw, 56px);
+    font-weight: 600;
+    line-height: 1.15;
+    margin-bottom: 22px;
+}
+
+.ser-transport-content p {
+    color: #ffffff;
+    font-size: 19px;
+    line-height: 1.7;
+    margin-bottom: 30px;
+}
+
+.ser-phone-btn {
+    background: #f2541f;
+    color: #ffffff;
+    border-radius: 4px;
+    padding: 14px 28px;
+    font-size: 16px;
+    font-weight: 500;
+    border: none;
+}
+
+.ser-phone-btn:hover {
+    background: #ffffff;
+    color: #111111;
+}
+
+.ser-quote-btn {
+    background: #ffffff;
+    color: #111111;
+    border-radius: 4px;
+    padding: 14px 28px;
+    font-size: 16px;
+    font-weight: 500;
+    border: none;
+}
+
+.ser-quote-btn:hover {
+    background: #f2541f;
+    color: #ffffff;
+}
+
+/* All Services Section */
+.ser-all-services-section {
+    background: #f7f7f7;
+}
+
+.ser-all-services-title {
+    color: #27232d;
+    font-size: clamp(34px, 5vw, 54px);
+    font-weight: 600;
+    margin: 0;
+}
+
+.ser-service-category {
+    background: #ffffff;
+    padding: 36px;
+    border-radius: 18px;
+    border: 1px solid #eeeeee;
+    box-shadow: 0 14px 35px rgba(0, 0, 0, 0.06);
+}
+
+.ser-category-head {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.ser-category-head i {
+    color: #f2541f;
+    font-size: 42px;
+}
+
+.ser-category-head h3 {
+    color: #27232d;
+    font-size: clamp(24px, 4vw, 36px);
+    font-weight: 600;
+    margin: 0;
+}
+
+.ser-service-card {
+    background: #ffffff;
+    border: 2px solid #e6e6e6;
+    border-top: 4px solid #f0e3d3;
+    padding: 24px 16px;
+    transition: all 0.3s ease;
+}
+
+.ser-service-card:hover {
+    border-top-color: #f2541f;
+    transform: translateY(-5px);
+}
+
+.ser-service-card-head {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 12px;
+    margin-bottom: 10px;
+}
+
+.ser-service-card-head h4 {
+    color: #27232d;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 1.4;
+    margin: 0;
+}
+
+.ser-service-card-head a {
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+    color: #27232d;
+    font-size: 13px;
+    font-weight: 700;
+    text-decoration: none;
+    white-space: nowrap;
+}
+
+.ser-service-card-head a i {
+    color: #007a5a;
+    font-size: 12px;
+}
+
+.ser-service-card-head a:hover {
+    color: #f2541f;
+}
+
+.ser-service-card p {
+    color: #555555;
+    font-size: 15px;
+    line-height: 1.6;
+    margin: 0;
+}
+
+/* Individual Transport Section */
+.ser-individual-transport-section {
+    background: #f0e3d3;
+}
+
+.ser-individual-img-box {
+    width: 100%;
+}
+
+.ser-individual-img {
+    width: 100%;
+    height: 100%;
+    max-height: 560px;
+    object-fit: cover;
+    border-radius: 18px;
+}
+
+.ser-individual-content h2 {
+    color: #27232d;
+    font-size: clamp(34px, 5vw, 54px);
+    font-weight: 600;
+    line-height: 1.15;
+    margin-bottom: 24px;
+}
+
+.ser-individual-content p {
+    color: #444444;
+    font-size: 17px;
+    line-height: 1.75;
+    margin-bottom: 18px;
+}
+
+.ser-individual-content strong {
+    color: #27232d;
+    font-weight: 500;
+}
+
+.ser-individual-btn {
+    display: inline-block;
+    background: #f2541f;
+    color: #ffffff;
+    text-decoration: none;
+    padding: 15px 30px;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: 500;
+    transition: all 0.3s ease;
+}
+
+.ser-individual-btn:hover {
+    background: #27232d;
+    color: #ffffff;
+}
+
+
+    .pricing-section{
+      padding:80px 0;
+      position:relative;
+      overflow:hidden;
+    }
+
+    .prices-bg{
+      position:absolute;
+      top:0;
+      left:0;
+      width:100%;
+      height:100%;
+      z-index:1;
+      opacity:0.08;
+    }
+
+    .prices-bg img{
+      width:100%;
+      height:100%;
+      object-fit:cover;
+    }
+
+    .pricing-wrapper{
+      position:relative;
+      z-index:2;
+    }
+
+    .pricing-card{
+      background:#fff;
+      border-radius:20px;
+      padding:35px 30px;
+      height:100%;
+      transition:0.3s ease;
+      box-shadow:0 10px 30px rgba(0,0,0,0.08);
+      border:1px solid #ececec;
+      display:flex;
+      flex-direction:column;
+      justify-content:space-between;
+    }
+
+    .pricing-card:hover{
+      transform:translateY(-10px);
+      box-shadow:0 18px 40px rgba(0,0,0,0.12);
+    }
+
+    .card-title{
+      font-size:28px;
+      font-weight:700;
+      color:#111;
+      margin-bottom:25px;
+      text-align:center;
+    }
+
+    .pricing-card p{
+      font-size:16px;
+      line-height:1.8;
+      color:#555;
+      margin-bottom:30px;
+      text-align:center;
+    }
+
+    .pricing-card strong{
+      color:#ffb400;
+    }
+
+    .yellow-btn{
+      background:#ffb400;
+      color:#000;
+      border:none;
+      padding:14px 30px;
+      border-radius:50px;
+      font-weight:700;
+      font-size:16px;
+      width:100%;
+      transition:0.3s;
+      text-align:center;
+      text-decoration:none;
+      display:inline-block;
+    }
+
+    .yellow-btn:hover{
+      background:#000;
+      color:#fff;
+    }
+    .li-3{
+        font-size: 19px;
+    }
+
+    @media(max-width:991px){
+      .pricing-card{
+        margin-bottom:25px;
+      }
+    }

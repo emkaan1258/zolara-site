@@ -1,0 +1,151 @@
+/* Cares Section */
+.abt-care-section {
+    background: rgba(240,227,211,0.5);
+}
+
+.abt-care-image-box {
+    width: 100%;
+    min-height: 560px;
+    background: #f3f3f3;
+    border-radius: 18px;
+}
+
+.abt-care-content h5 {
+    color: #f2541f;
+    font-size: 15px;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 14px;
+}
+
+.abt-care-content h2 {
+    color: #27232d;
+    font-size: clamp(36px, 5vw, 56px);
+    font-weight: 600;
+    line-height: 1.1;
+    margin-bottom: 24px;
+    text-transform: uppercase;
+}
+
+.abt-care-content p {
+    color: #444444;
+    font-size: 17px;
+    line-height: 1.75;
+    margin-bottom: 18px;
+}
+
+.abt-care-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 54px;
+    background: #f2541f;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 4px;
+    padding: 14px 24px;
+    font-size: 15px;
+    font-weight: 500;
+    text-transform: uppercase;
+    transition: all 0.3s ease;
+}
+
+.abt-care-btn:hover {
+    background: #27232d;
+    color: #ffffff;
+}
+
+/* Featured Events */
+.evt-featured-section {
+    background: #ffffff;
+    overflow: hidden;
+}
+
+.evt-main-title {
+    color: #27232d;
+    font-size: clamp(36px, 5vw, 56px);
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.evt-sub-title {
+    color: #555555;
+    font-size: clamp(20px, 3vw, 30px);
+    font-weight: 700;
+    margin: 0;
+}
+
+.evt-card {
+    background: #ffffff;
+    border: 1px solid #eeeeee;
+    box-shadow: 0 14px 35px rgba(0, 0, 0, 0.08);
+    transition: all 0.3s ease;
+}
+
+.evt-card:hover {
+    transform: translateY(-6px);
+}
+
+.evt-img-link {
+    display: block;
+    width: 100%;
+    overflow: hidden;
+    background: #f7f7f7;
+}
+
+.evt-img-link img {
+    width: 100%;
+    height: 230px;
+    object-fit: cover;
+    display: block;
+    transition: all 0.3s ease;
+}
+
+.evt-card:hover .evt-img-link img {
+    transform: scale(1.05);
+}
+
+.evt-card h4 {
+    padding: 22px;
+    margin: 0;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 1.35;
+}
+
+.evt-card h4 a {
+    color: #27232d;
+    text-decoration: none;
+}
+
+.evt-card h4 a:hover {
+    color: #f2541f;
+}
+
+.evt-carousel-control {
+    width: 48px;
+    height: 48px;
+    top: 45%;
+    background: #f2541f;
+    border-radius: 50%;
+    opacity: 1;
+    color: #ffffff;
+}
+
+.evt-carousel-control:hover {
+    background: #27232d;
+    color: #ffffff;
+}
+
+.evt-carousel-control i {
+    font-size: 22px;
+}
+
+.evt-prev {
+    left: -24px;
+}
+
+.evt-next {
+    right: -24px;
+}

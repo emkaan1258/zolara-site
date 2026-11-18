@@ -1,0 +1,129 @@
+/* News Blog Section */
+.news-blog-section {
+    background: #ffffff;
+}
+
+.news-post-card {
+    background: black;
+    border: 1px solid #eeeeee;
+    padding: 22px;
+    margin-bottom: 28px;
+    box-shadow: 0 14px 35px rgba(0, 0, 0, 0.06);
+}
+
+.news-post-img-box {
+    width: 100%;
+    overflow: hidden;
+}
+
+.news-post-img-box img {
+    width: 100%;
+    height: 230px;
+    object-fit: cover;
+    display: block;
+}
+
+.news-post-content h2 {
+    font-size: 26px;
+    color-scheme: #fff;
+    font-weight: 600;
+    line-height: 1.25;
+    margin-bottom: 14px;
+}
+
+.news-post-content h2 a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.news-post-content h2 a:hover {
+    color: #f2541f;
+}
+
+.news-post-content p {
+    
+    font-size: 16px;
+    color: #fff;
+    line-height: 1.7;
+    margin-bottom: 18px;
+}
+
+.news-read-more {
+    color: #f2541f;
+    font-size: 14px;
+    font-weight: 600;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.news-read-more:hover {
+    color: #27232d;
+}
+
+.news-sidebar {
+    background: #f7f7f7;
+    padding: 28px 22px;
+    border: 1px solid #eeeeee;
+}
+
+.news-widget {
+    margin-bottom: 35px;
+}
+
+.news-widget h2 {
+    color: #27232d;
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 18px;
+}
+
+.news-widget ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.news-widget ul li {
+    border-bottom: 1px solid #dddddd;
+    padding-bottom: 12px;
+    margin-bottom: 12px;
+}
+
+.news-widget ul li a {
+    color: #444444;
+    font-size: 15px;
+    line-height: 1.5;
+    text-decoration: none;
+}
+
+.news-widget ul li a:hover {
+    color: #f2541f;
+}
+
+.news-pagination ul {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    list-style: none;
+    padding: 0;
+    margin: 20px 0 0;
+}
+
+.news-pagination ul li a,
+.news-pagination ul li span {
+    width: 42px;
+    height: 42px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background: #f7f7f7;
+    color: #27232d;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.news-pagination ul li span.current,
+.news-pagination ul li a:hover {
+    background: #f2541f;
+    color: #ffffff;
+}

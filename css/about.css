@@ -1,0 +1,197 @@
+/* Get To Know Us Section */
+.abt-know-section {
+    background: #ffffff;
+}
+
+.abt-know-content h5 {
+    color: #f2541f;
+    font-size: 15px;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 14px;
+}
+
+.abt-know-content h2 {
+    color: #27232d;
+    font-size: clamp(36px, 5vw, 56px);
+    font-weight: 600;
+    line-height: 1.1;
+    margin-bottom: 24px;
+}
+
+.abt-know-content p {
+    color: #444444;
+    font-size: 17px;
+    line-height: 1.75;
+    margin-bottom: 18px;
+}
+
+.abt-stat-box {
+    background: #ffffff;
+    border: 1px solid #eeeeee;
+    border-top: 4px solid #f2541f;
+    padding: 30px 24px;
+    text-align: center;
+    box-shadow: 0 14px 35px rgba(0, 0, 0, 0.06);
+}
+
+.abt-stat-icon {
+    color: #f2541f;
+    font-size: 42px;
+    line-height: 1;
+    margin-bottom: 18px;
+}
+
+.abt-stat-box h4 {
+    color: #27232d;
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+
+.abt-stat-box p {
+    color: #555555;
+    font-size: 15px;
+    line-height: 1.5;
+    margin: 0;
+}
+
+.abt-btn {
+    display: inline-block;
+    text-decoration: none;
+    padding: 15px 28px;
+    border-radius: 4px;
+    font-size: 15px;
+    font-weight: 500;
+    text-transform: uppercase;
+    transition: all 0.3s ease;
+}
+
+.abt-btn-primary {
+    background: #f2541f;
+    color: #ffffff;
+}
+
+.abt-btn-primary:hover {
+    background: #27232d;
+    color: #ffffff;
+}
+
+.abt-btn-secondary {
+    background: #27232d;
+    color: #ffffff;
+}
+
+.abt-btn-secondary:hover {
+    background: #f2541f;
+    color: #ffffff;
+}
+
+.abt-know-image-box {
+    width: 100%;
+    min-height: 520px;
+    background: #f3f3f3;
+    border-radius: 18px;
+}
+
+/* What We Do Section */
+.abt-what-section {
+    background: rgba(240,227,211,.5);
+}
+
+.abt-what-image-box {
+    width: 100%;
+    min-height: 560px;
+    
+    border-radius: 18px;
+}
+
+.abt-what-content h5 {
+    color: #f2541f;
+    font-size: 15px;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 14px;
+}
+
+.abt-what-content h2 {
+    color: #27232d;
+    font-size: clamp(36px, 5vw, 56px);
+    font-weight: 600;
+    line-height: 1.1;
+    margin-bottom: 24px;
+}
+
+.abt-what-content p {
+    color: #444444;
+    font-size: 17px;
+    line-height: 1.75;
+    margin-bottom: 18px;
+}
+
+.abt-what-content p a {
+    color: #f2541f;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.abt-what-content p a:hover {
+    color: #27232d;
+}
+
+.abt-what-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 54px;
+    background: #f2541f;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 4px;
+    padding: 14px 24px;
+    font-size: 15px;
+    font-weight: 500;
+    text-transform: uppercase;
+    transition: all 0.3s ease;
+}
+
+.abt-what-btn:hover {
+    background: #27232d;
+    color: #ffffff;
+}
+
+/* Achievements Section */
+.abt-achievements-section {
+    background: #ffffff;
+}
+
+.abt-achievements-img-box {
+    width: 100%;
+    overflow: hidden;
+    border-radius: 18px;
+}
+
+.abt-achievements-img {
+    width: 100%;
+    height: 520px;
+    object-fit: cover;
+    display: block;
+}
+
+.abt-achievements-content h2 {
+    color: #27232d;
+    font-size: clamp(34px, 5vw, 54px);
+    font-weight: 600;
+    line-height: 1.15;
+    margin-bottom: 24px;
+    text-transform: uppercase;
+}
+
+.abt-achievements-content p {
+    color: #444444;
+    font-size: 17px;
+    line-height: 1.75;
+    margin-bottom: 18px;
+}

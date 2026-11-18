@@ -1,0 +1,794 @@
+/* Our Brand Section */
+.abt-brand-section {
+    background: #ffffff;
+}
+
+.abt-brand-content h5 {
+    color: #f2541f;
+    font-size: 15px;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 14px;
+}
+
+.abt-brand-content h2 {
+    color: #27232d;
+    font-size: clamp(36px, 5vw, 56px);
+    font-weight: 600;
+    line-height: 1.1;
+    margin-bottom: 24px;
+    text-transform: uppercase;
+}
+
+.abt-brand-content p {
+    color: #444444;
+    font-size: 17px;
+    line-height: 1.75;
+    margin-bottom: 0;
+}
+
+.abt-brand-image-box {
+    width: 100%;
+    min-height: 520px;
+    background: #f3f3f3;
+    border-radius: 18px;
+}
+/* Business Principles Section */
+.abt-principles-section {
+    background: #ffffff;
+}
+
+.abt-principles-image-box {
+    width: 100%;
+    min-height: 620px;
+    background: #f3f3f3;
+    border-radius: 18px;
+}
+
+.abt-principles-content h2 {
+    color: #27232d;
+    font-size: clamp(36px, 5vw, 56px);
+    font-weight: 600;
+    line-height: 1.1;
+    margin-bottom: 24px;
+    text-transform: uppercase;
+}
+
+.abt-principles-content p {
+    color: #444444;
+    font-size: 17px;
+    line-height: 1.75;
+    margin-bottom: 20px;
+}
+
+.abt-principles-list {
+    padding-left: 22px;
+    margin-bottom: 28px;
+}
+
+.abt-principles-list li {
+    color: #444444;
+    font-size: 16px;
+    line-height: 1.75;
+    margin-bottom: 14px;
+}
+
+.abt-principles-list li strong {
+    color: #27232d;
+    font-weight: 600;
+}
+
+.abt-principles-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 54px;
+    background: #f2541f;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 4px;
+    padding: 14px 30px;
+    font-size: 15px;
+    font-weight: 500;
+    text-transform: uppercase;
+    transition: all 0.3s ease;
+}
+
+.abt-principles-btn:hover {
+    background: #27232d;
+    color: #ffffff;
+}   
+
+/* Family Of Brands Section */
+.abt-family-brand-section {
+    background: #ffffff;
+}
+
+.abt-family-brand-heading h2 {
+    color: #27232d;
+    font-size: clamp(36px, 5vw, 56px);
+    font-weight: 600;
+    line-height: 1.1;
+    margin-bottom: 18px;
+    text-transform: uppercase;
+}
+
+.abt-family-brand-heading p {
+    color: #444444;
+    font-size: 17px;
+    line-height: 1.75;
+    margin: 0;
+}
+
+.abt-brand-card {
+    background: #ffffff;
+    border: 1px solid #eeeeee;
+    padding: 32px 24px;
+    text-align: center;
+    box-shadow: 0 14px 35px rgba(0, 0, 0, 0.07);
+    transition: all 0.3s ease;
+}
+
+.abt-brand-card:hover {
+    transform: translateY(-6px);
+    border-color: #f2541f;
+}
+
+.abt-brand-logo {
+    min-height: 95px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 22px;
+}
+
+.abt-brand-logo img {
+    max-width: 100%;
+    max-height: 85px;
+    object-fit: contain;
+}
+
+.abt-brand-card h3 {
+    color: #27232d;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 1.25;
+    margin-bottom: 14px;
+}
+
+.abt-brand-card p {
+    color: #555555;
+    font-size: 16px;
+    line-height: 1.65;
+    margin-bottom: 20px;
+}
+
+.abt-brand-link {
+    display: inline-block;
+    color: #f2541f;
+    font-size: 15px;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.abt-brand-link:hover {
+    color: #27232d;
+}
+/* Gallery Box Section */
+.gallery-box-section {
+    background: #ffffff;
+}
+
+.gallery-box-card {
+    display: block;
+    background: #ffffff;
+    text-decoration: none;
+    border: 1px solid #eeeeee;
+    box-shadow: 0 14px 35px rgba(0, 0, 0, 0.08);
+    overflow: hidden;
+    transition: all 0.3s ease;
+}
+
+.gallery-box-card:hover {
+    transform: translateY(-6px);
+}
+
+.gallery-box-img {
+    width: 100%;
+    overflow: hidden;
+}
+
+.gallery-box-img img {
+    width: 100%;
+    height: 320px;
+    object-fit: cover;
+    display: block;
+    transition: all 0.3s ease;
+}
+
+.gallery-box-card:hover .gallery-box-img img {
+    transform: scale(1.05);
+}
+
+.gallery-box-content {
+    padding: 24px;
+    text-align: center;
+}
+
+.gallery-box-content h3 {
+    color: #27232d;
+    font-size: 26px;
+    font-weight: 600;
+    margin: 0;
+    text-transform: uppercase;
+}
+
+.gallery-box-card:hover .gallery-box-content h3 {
+    color: #f2541f;
+}
+/* Contact Section */
+.cnt-contact-section {
+    background: #ffffff;
+}
+
+.cnt-form-area,
+.cnt-info-area {
+    background: #ffffff;
+}
+
+.cnt-heading h2,
+.cnt-info-area h2 {
+    color: #27232d;
+    font-size: clamp(34px, 5vw, 52px);
+    font-weight: 600;
+    line-height: 1.1;
+    margin-bottom: 18px;
+    text-transform: uppercase;
+}
+
+.cnt-heading p {
+    color: #444444;
+    font-size: 17px;
+    line-height: 1.75;
+    margin-bottom: 0;
+}
+
+.cnt-contact-form {
+    margin-top: 30px;
+}
+
+.cnt-label {
+    color: #27232d;
+    font-size: 15px;
+    font-weight: 500;
+    margin-bottom: 8px;
+}
+
+.cnt-label span {
+    color: #f2541f;
+}
+
+.cnt-input {
+    min-height: 54px;
+    border-radius: 4px;
+    border: 1px solid #dddddd;
+    color: #27232d;
+    font-size: 15px;
+    padding: 12px 15px;
+    box-shadow: none;
+}
+
+.cnt-input:focus {
+    border-color: #f2541f;
+    box-shadow: none;
+}
+
+.cnt-textarea {
+    min-height: 160px;
+    resize: none;
+}
+
+.cnt-contact-form small {
+    display: block;
+    color: #777777;
+    font-size: 13px;
+    margin-top: 5px;
+}
+
+.cnt-consent-box {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+.cnt-consent-box input {
+    margin-top: 5px;
+}
+
+.cnt-consent-box label {
+    color: #444444;
+    font-size: 14px;
+    line-height: 1.65;
+}
+
+.cnt-consent-box label a {
+    color: #0dcaf0;
+    text-decoration: none;
+}
+
+.cnt-submit-btn {
+    background: #f2541f;
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    padding: 15px 34px;
+    font-size: 15px;
+    font-weight: 600;
+    text-transform: uppercase;
+    transition: all 0.3s ease;
+}
+
+.cnt-submit-btn:hover {
+    background: #27232d;
+    color: #ffffff;
+}
+
+.cnt-info-box {
+    background: #f7f7f7;
+    padding: 28px 20px;
+    border: 1px solid #eeeeee;
+}
+
+.cnt-info-icon {
+    color: #f2541f;
+    font-size: 38px;
+    margin-bottom: 14px;
+}
+
+.cnt-info-box p {
+    margin: 0;
+}
+
+.cnt-info-box p a {
+    color: #27232d;
+    font-size: 17px;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.cnt-info-box p a:hover {
+    color: #f2541f;
+}
+
+.cnt-separator {
+    width: 100%;
+    height: 1px;
+    background: #dddddd;
+    margin: 10px 0 28px;
+}
+
+.cnt-address-box {
+    display: flex;
+    align-items: flex-start;
+    gap: 18px;
+}
+
+.cnt-address-icon {
+    color: #f2541f;
+    font-size: 34px;
+    line-height: 1;
+}
+
+.cnt-address-box h4 {
+    color: #27232d;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 1.45;
+    margin: 0;
+}
+
+.cnt-driver-box {
+    background: #27232d;
+    padding: 32px 26px;
+    color: #ffffff;
+}
+
+.cnt-driver-box h2 {
+    color: #ffffff;
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 12px;
+    text-transform: none;
+}
+
+.cnt-driver-box p {
+    color: #ffffff;
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 12px;
+}
+
+.cnt-rating {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.cnt-driver-btn {
+    display: inline-block;
+    background: #f2541f;
+    color: #ffffff;
+    text-decoration: none;
+    padding: 14px 24px;
+    border-radius: 4px;
+    font-size: 15px;
+    font-weight: 600;
+    text-transform: uppercase;
+    transition: all 0.3s ease;
+}
+
+.cnt-driver-btn:hover {
+    background: #ffffff;
+    color: #27232d;
+}
+
+.cnt-estimate-box {
+    background: #f7f7f7;
+    border: 1px solid #eeeeee;
+    padding: 30px 24px;
+}
+
+.cnt-estimate-box h3 {
+    color: #27232d;
+    font-size: 26px;
+    font-weight: 600;
+    line-height: 1.25;
+    margin-bottom: 16px;
+}
+
+.cnt-estimate-box p {
+    color: #444444;
+    font-size: 16px;
+    line-height: 1.7;
+    margin-bottom: 18px;
+}
+
+.cnt-estimate-link {
+    color: #f2541f;
+    font-size: 15px;
+    font-weight: 600;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.cnt-estimate-link:hover {
+    color: #27232d;
+}
+/* Locations Section */
+.loc-locations-section {
+    background: #ffffff;
+}
+
+.loc-list-wrapper {
+    width: 100%;
+}
+
+.loc-office-card {
+    background: #ffffff;
+    border: 1px solid #eeeeee;
+    border-left: 5px solid #f2541f;
+    padding: 24px 26px;
+    margin-bottom: 22px;
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.06);
+}
+
+.loc-office-card h4 {
+    color: #27232d;
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 12px;
+}
+
+.loc-office-card p {
+    color: #444444;
+    font-size: 16px;
+    line-height: 1.75;
+    margin: 0;
+}
+
+.loc-office-card strong {
+    color: #27232d;
+    font-weight: 600;
+}
+
+.loc-image-wrapper {
+    position: sticky;
+    top: 30px;
+}
+
+.loc-image-wrapper h2 {
+    color: #27232d;
+    font-size: clamp(36px, 5vw, 56px);
+    font-weight: 600;
+    line-height: 1.1;
+    margin-bottom: 28px;
+    text-transform: uppercase;
+}
+
+.loc-main-img {
+    width: 100%;
+    height: 620px;
+    object-fit: cover;
+    border-radius: 18px;
+    box-shadow: 0 16px 40px rgba(0, 0, 0, 0.12);
+}
+/* Privacy Policy Section */
+.pp-policy-section {
+    background: #ffffff;
+}
+
+.pp-policy-header h1 {
+    color: #27232d;
+    font-size: clamp(36px, 5vw, 58px);
+    font-weight: 600;
+    line-height: 1.15;
+    margin-bottom: 18px;
+}
+
+.pp-policy-header p {
+    color: #555555;
+    font-size: 18px;
+    line-height: 1.75;
+    margin: 0 auto;
+    max-width: 850px;
+}
+
+.pp-section-title {
+    margin-bottom: 24px;
+}
+
+.pp-section-title h2 {
+    color: #27232d;
+    font-size: clamp(30px, 4vw, 46px);
+    font-weight: 600;
+    line-height: 1.15;
+    margin: 0;
+    text-transform: uppercase;
+}
+
+.pp-summary-card,
+.pp-purpose-card,
+.pp-info-box {
+    background: #ffffff;
+    border: 1px solid #eeeeee;
+    border-top: 5px solid #f2541f;
+    padding: 30px 24px;
+    box-shadow: 0 14px 35px rgba(0, 0, 0, 0.07);
+    transition: all 0.3s ease;
+}
+
+.pp-summary-card:hover,
+.pp-purpose-card:hover,
+.pp-info-box:hover {
+    transform: translateY(-6px);
+}
+
+.pp-summary-icon {
+    color: #f2541f;
+    font-size: 42px;
+    line-height: 1;
+    margin-bottom: 18px;
+}
+
+.pp-summary-card h3,
+.pp-info-box h3 {
+    color: #27232d;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 1.25;
+    margin-bottom: 14px;
+}
+
+.pp-purpose-card h4 {
+    color: #27232d;
+    font-size: 21px;
+    font-weight: 600;
+    line-height: 1.3;
+    margin-bottom: 14px;
+}
+
+.pp-summary-card p,
+.pp-purpose-card p,
+.pp-info-box p {
+    color: #555555;
+    font-size: 16px;
+    line-height: 1.7;
+    margin-bottom: 10px;
+}
+
+.pp-summary-card p:last-child,
+.pp-purpose-card p:last-child,
+.pp-info-box p:last-child {
+    margin-bottom: 0;
+}
+
+.pp-summary-card strong,
+.pp-purpose-card strong,
+.pp-info-box strong {
+    color: #27232d;
+    font-weight: 600;
+}
+
+.pp-policy-accordion .accordion-item {
+    border: 1px solid #eeeeee;
+    margin-bottom: 16px;
+    box-shadow: 0 10px 26px rgba(0, 0, 0, 0.05);
+}
+
+.pp-policy-accordion .accordion-button {
+    color: #27232d;
+    background: #ffffff;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 1.4;
+    box-shadow: none;
+    padding: 20px 24px;
+}
+
+.pp-policy-accordion .accordion-button:not(.collapsed) {
+    background: #f2541f;
+    color: #ffffff;
+}
+
+.pp-policy-accordion .accordion-button:focus {
+    box-shadow: none;
+    border-color: #eeeeee;
+}
+
+.pp-policy-accordion .accordion-body {
+    padding: 24px;
+}
+
+.pp-policy-accordion .accordion-body p {
+    color: #444444;
+    font-size: 16px;
+    line-height: 1.75;
+    margin-bottom: 14px;
+}
+
+.pp-policy-accordion .accordion-body ul {
+    padding-left: 20px;
+    margin-bottom: 0;
+}
+
+.pp-policy-accordion .accordion-body li {
+    color: #444444;
+    font-size: 16px;
+    line-height: 1.75;
+    margin-bottom: 10px;
+}
+
+.pp-policy-accordion .accordion-body li strong {
+    color: #27232d;
+    font-weight: 600;
+}
+
+/* Terms and Conditions Section */
+.tc-terms-section {
+    background: #ffffff;
+}
+
+.tc-header h1 {
+    color: #27232d;
+    font-size: clamp(36px, 5vw, 58px);
+    font-weight: 900;
+    line-height: 1.15;
+    margin-bottom: 18px;
+}
+
+.tc-header p {
+    color: #555555;
+    font-size: 18px;
+    line-height: 1.75;
+    max-width: 850px;
+    margin: 0 auto;
+}
+
+.tc-content-block {
+    border-left: 5px solid #f2541f;
+    padding-left: 28px;
+}
+
+.tc-content-block h2 {
+    color: #27232d;
+    font-size: clamp(30px, 4vw, 46px);
+    font-weight: 900;
+    line-height: 1.15;
+    margin-bottom: 18px;
+    text-transform: uppercase;
+}
+
+.tc-content-block p {
+    color: #444444;
+    font-size: 17px;
+    line-height: 1.75;
+    margin-bottom: 14px;
+}
+
+.tc-content-block strong {
+    color: #27232d;
+    font-weight: 900;
+}
+
+.tc-accordion .accordion-item {
+    border: 1px solid #eeeeee;
+    margin-bottom: 14px;
+}
+
+.tc-accordion .accordion-button {
+    color: #27232d;
+    background: #ffffff;
+    font-size: 18px;
+    font-weight: 900;
+    line-height: 1.4;
+    box-shadow: none;
+    padding: 20px 24px;
+}
+
+.tc-accordion .accordion-button:not(.collapsed) {
+    background: #f2541f;
+    color: #ffffff;
+}
+
+.tc-accordion .accordion-button:focus {
+    box-shadow: none;
+    border-color: #eeeeee;
+}
+
+.tc-accordion .accordion-body {
+    padding: 24px;
+}
+
+.tc-accordion .accordion-body p {
+    color: #444444;
+    font-size: 16px;
+    line-height: 1.75;
+    margin-bottom: 14px;
+}
+
+.tc-accordion .accordion-body p:last-child {
+    margin-bottom: 0;
+}
+
+.tc-accordion .accordion-body ul {
+    padding-left: 20px;
+    margin-bottom: 0;
+}
+
+.tc-accordion .accordion-body li {
+    color: #444444;
+    font-size: 16px;
+    line-height: 1.75;
+    margin-bottom: 10px;
+}
+
+.tc-accordion .accordion-body li strong,
+.tc-accordion .accordion-body strong {
+    color: #27232d;
+    font-weight: 900;
+}
+
+.tc-accordion a {
+    color: #f2541f;
+    text-decoration: none;
+    font-weight: 800;
+}
+
+.tc-accordion a:hover {
+    color: #27232d;
+}
